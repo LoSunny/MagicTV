@@ -1,0 +1,26 @@
+{
+    "pluginAlias": "MagicTVHomeBridgePlugin",
+    "pluginType": "platform",
+    "singular": true,
+    "schema":
+    {
+        "type": "object",
+        "properties":
+        {
+            "name":
+            {
+                "title": "Name",
+                "type": "string",
+                "required": true,
+                "default": "MagicTV HomeKit"
+            },
+            "ipaddress":
+            {
+                "title": "IP Address of MagicTV",
+                "type": "string",
+                "required": true,
+                "default": "102.168.8.1"
+            }
+        }
+    }
+}
